@@ -16,7 +16,6 @@ public class TicketSystem {
 		return basicPrice * (taxRate / 100);
 	}
 	
-	// calculate VIP discount
 	public float vipDiscount(float basicPrice, float discountRate) {
 		return basicPrice * (discountRate / 100);
 	}
