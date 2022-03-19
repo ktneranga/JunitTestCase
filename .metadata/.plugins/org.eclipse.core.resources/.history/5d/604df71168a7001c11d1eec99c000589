@@ -1,0 +1,7 @@
+
+public class TicketSystem {
+	//calculate
+	public float classFares(float basicPrice, float classRate) {
+		return ticketPrice * (discountRate/100);
+	}
+}

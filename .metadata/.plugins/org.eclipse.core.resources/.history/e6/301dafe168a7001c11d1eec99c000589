@@ -1,0 +1,9 @@
+
+public class TicketSystem {
+	//calculate flight class fare
+	public float flightTypeAmount(float basicPrice, float typeRate) {
+		return basicPrice * (typeRate / 100);
+	}
+	
+	public float ticketTax(float basicPrice, taxRate)
+}
