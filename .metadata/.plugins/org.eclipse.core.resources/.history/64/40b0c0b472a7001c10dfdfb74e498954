@@ -1,0 +1,92 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class TicketSystemTest {
+
+	/**
+	 * @throws java.lang.Exception
+	 */
+	@BeforeAll
+	static void setUpBeforeClass() throws Exception {
+	}
+
+	/**
+	 * @throws java.lang.Exception
+	 */
+	@AfterAll
+	static void tearDownAfterClass() throws Exception {
+	}
+
+	/**
+	 * @throws java.lang.Exception
+	 */
+	@BeforeEach
+	void setUp() throws Exception {
+	}
+
+	/**
+	 * @throws java.lang.Exception
+	 */
+	@AfterEach
+	void tearDown() throws Exception {
+	}
+
+	/**
+	 * Test method for {@link TicketSystem#flightTypeAmount(float, float)}.
+	 */
+	@Test
+	void testFlightTypeAmount() {
+		TicketSystem ticketSystem = new TicketSystem();
+		float basicPrice = 150000;
+		float typeRate = 10;
+		
+		double actual = ticketSystem.flightTypeAmount(basicPrice, typeRate);
+		double expected = 15000;
+	}
+
+	/**
+	 * Test method for {@link TicketSystem#flightClassAmount(float, float)}.
+	 */
+	@Test
+	void testFlightClassAmount() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link TicketSystem#governmentTaxCharge(float, float)}.
+	 */
+	@Test
+	void testGovernmentTaxCharge() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link TicketSystem#vipDiscount(float, float)}.
+	 */
+	@Test
+	void testVipDiscount() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link TicketSystem#totalTicketPrice(float, float, float, float)}.
+	 */
+	@Test
+	void testTotalTicketPrice() {
+		fail("Not yet implemented");
+	}
+
+	/**
+	 * Test method for {@link TicketSystem#netTicketPrice(float, float)}.
+	 */
+	@Test
+	void testNetTicketPrice() {
+		fail("Not yet implemented");
+	}
+
+}

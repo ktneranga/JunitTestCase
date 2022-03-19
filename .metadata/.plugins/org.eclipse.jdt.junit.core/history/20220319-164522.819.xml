@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TicketSystemTest" project="OnlineTicketReservationSystemForAnAirline" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="TicketSystemTest" time="0.017" uniqueid="[engine:junit-jupiter]/[class:TicketSystemTest]">
+    <testcase name="testVipDiscount" classname="TicketSystemTest" time="0.0" displayname="testVipDiscount()" uniqueid="[engine:junit-jupiter]/[class:TicketSystemTest]/[method:testVipDiscount()]"/>
+    <testcase name="testFlightTypeAmount" classname="TicketSystemTest" time="0.0" displayname="testFlightTypeAmount()" uniqueid="[engine:junit-jupiter]/[class:TicketSystemTest]/[method:testFlightTypeAmount()]"/>
+    <testcase name="testNetTicketPrice" classname="TicketSystemTest" time="0.0" displayname="testNetTicketPrice()" uniqueid="[engine:junit-jupiter]/[class:TicketSystemTest]/[method:testNetTicketPrice()]"/>
+    <testcase name="testFlightClassAmount" classname="TicketSystemTest" time="0.0" displayname="testFlightClassAmount()" uniqueid="[engine:junit-jupiter]/[class:TicketSystemTest]/[method:testFlightClassAmount()]"/>
+    <testcase name="testGovernmentTaxCharge" classname="TicketSystemTest" time="0.0" displayname="testGovernmentTaxCharge()" uniqueid="[engine:junit-jupiter]/[class:TicketSystemTest]/[method:testGovernmentTaxCharge()]"/>
+    <testcase name="testTotalTicketPrice" classname="TicketSystemTest" time="0.017" displayname="testTotalTicketPrice()" uniqueid="[engine:junit-jupiter]/[class:TicketSystemTest]/[method:testTotalTicketPrice()]"/>
+  </testsuite>
+</testrun>

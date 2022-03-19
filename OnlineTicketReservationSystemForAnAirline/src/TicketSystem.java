@@ -33,9 +33,17 @@ public class TicketSystem {
 	
 	// calculate netTicket price
 	public float netTicketPrice(float totalTicketPrice, float governmentTaxCharge) {
-		return totalTicketPrice - governmentTaxCharge;
+		return totalTicketPrice + governmentTaxCharge;
 	}
 	
-	//need two more functions
+	// calculate extra baggage price
+	public float extraBaggageAmount(float basicPrice, float extraBagageCharge) {
+		return basicPrice + extraBagageCharge;
+	}
+	
+	public float flightMissingCompensation(float basicPrice, float delayCompensation) {
+		return basicPrice + delayCompensation;
+	}
+	
 	
 }
